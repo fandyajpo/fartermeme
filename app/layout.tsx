@@ -2,13 +2,11 @@ import "../global.css";
 import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
-import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: "Farter Coin",
   openGraph: {
     title: "Farter Coin",
-
     images: [
       {
         url: "/og.png",
@@ -55,9 +53,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
-      <head>
-        <Analytics />
-      </head>
       <body
         className={`bg-black ${
           process.env.NODE_ENV === "development" ? "debug-screens" : undefined
