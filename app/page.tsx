@@ -62,7 +62,7 @@ export default function Home() {
             href="https://odin.fun/"
             className="underline duration-500 hover:text-zinc-300"
           >
-            odin.dev
+            odin.fun
           </Link>{" "}
           and join the adventure!
         </h2>
