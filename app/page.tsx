@@ -37,6 +37,10 @@ export default function Home() {
         farter
       </h1>
 
+      <p className="text-white">
+        Farter is a cheeky meme coin causing a stink on the BTC Blockchain
+      </p>
+
       <div className="h-12" />
       <div className="animate-fade-in">
         <Card>

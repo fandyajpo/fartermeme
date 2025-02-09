@@ -1,5 +1,5 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Mail, Twitter, SendIcon } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -11,12 +11,12 @@ const socials = [
     label: "Twitter / X",
     handle: "@FARTMEMECOIN",
   },
-  // {
-  //   icon: <Mail size={20} />,
-  //   href: "mailto:dev@chronark.com",
-  //   label: "Email",
-  //   handle: "dev@chronark.com",
-  // },
+  {
+    icon: <SendIcon size={20} />,
+    href: "https://t.me/fartermemee",
+    label: "Telegram",
+    handle: "fartermemee",
+  },
   // {
   //   icon: <Github size={20} />,
   //   href: "https://github.com/chronark",

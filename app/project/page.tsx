@@ -1,18 +1,16 @@
 import React from "react";
-import { allProjects } from "contentlayer/generated";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 import Image from "next/image";
 export default async function ProjectsPage() {
-  const featured = allProjects.find((project) => project.slug === "unkey")!;
-
   return (
     <div className="relative pb-16">
       <Navigation />
       <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
+        <div className="hidden w-full h-px md:block bg-zinc-800" />
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
-            Projects
+            Project
           </h2>
           <p className="mt-4 text-zinc-400">
             Some of the projects are from work and some are on my own time.
@@ -55,7 +53,9 @@ export default async function ProjectsPage() {
                   {"Meme Coin"}
                 </h2>
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                  {featured.description}
+                  {
+                    "Farter memecoin brings trust and transparency back to crypto, making everything simpler. No complex tokens or empty promises. Built on the secure and fast BTC blockchain, Farter provides seamless transactions, always prioritizing the community."
+                  }
                 </p>
               </article>
             </Card>
@@ -73,10 +73,11 @@ export default async function ProjectsPage() {
                   id="featured-post"
                   className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
                 >
-                  {featured.title}
+                  {"Stinky Fart"}
                 </h2>
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                  {featured.description}
+                  {`I am Farter—a stinky fart on a mission to create the next big coin meme on Odin.fun! My goal? To turn Farter into a global meme sensation—a hilariously iconic brand that everyone knows (and can't stop laughing about). We're bringing FART, jokes, and memes to the masses—not just for crypto enthusiasts, but for the entire world.
+Prepare for the Farter Invasion—the world won’t know what hit it!`}
                 </p>
               </article>
             </Card>
@@ -116,15 +117,18 @@ export default async function ProjectsPage() {
                   id="featured-post"
                   className="mt-4 text-3xl font-bold text-zinc-100 group-hover:text-white sm:text-4xl font-display"
                 >
-                  {"Meme Coin"}
+                  {"Unlocking Decentralized Dreams"}
                 </h2>
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                  {featured.description}
+                  {
+                    "Join us as we unlock the magic of decentralized dreams and dive into the captivating world of a blockchain built for a fully immersive experience!"
+                  }
                 </p>
               </article>
             </Card>
           </div>
         </div>
+        <div className="hidden w-full h-px md:block bg-zinc-800" />
       </div>
     </div>
   );
