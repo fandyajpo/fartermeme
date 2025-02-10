@@ -54,7 +54,7 @@ export default async function ProjectsPage() {
                 </h2>
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
                   {
-                    "Farter memecoin brings trust and transparency back to crypto, making everything simpler. No complex tokens or empty promises. Built on the secure and fast BTC blockchain, Farter provides seamless transactions, always prioritizing the community."
+                    "Farter memecoin brings trust and transparency back to crypto, making everything simpler. No complex tokens or empty promises. Built on the secure and fast SUI, Farter provides seamless transactions, always prioritizing the community."
                   }
                 </p>
               </article>
@@ -76,7 +76,7 @@ export default async function ProjectsPage() {
                   {"Stinky Fart"}
                 </h2>
                 <p className="mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
-                  {`I am Farter—a stinky fart on a mission to create the next big coin meme on Odin.fun! My goal? To turn Farter into a global meme sensation—a hilariously iconic brand that everyone knows (and can't stop laughing about). We're bringing FART, jokes, and memes to the masses—not just for crypto enthusiasts, but for the entire world.
+                  {`I am Farter—a stinky fart on a mission to create the next big coin meme on movepump.com! My goal? To turn Farter into a global meme sensation—a hilariously iconic brand that everyone knows (and can't stop laughing about). We're bringing FART, jokes, and memes to the masses—not just for crypto enthusiasts, but for the entire world.
 Prepare for the Farter Invasion—the world won’t know what hit it!`}
                 </p>
               </article>

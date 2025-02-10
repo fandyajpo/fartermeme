@@ -38,7 +38,7 @@ export default function Home() {
       </h1>
 
       <p className="text-white md:text-xl text-xs w-5/6 text-center">
-        Farter is a cheeky meme coin causing a stink on the BTC Blockchain
+        Farter is a cheeky meme coin causing a stink on the SUI
       </p>
 
       <div className="h-12" />
@@ -48,7 +48,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               target="_blank"
-              href="https://odin.fun/"
+              href="https://movepump.com/"
               className="text-xl duration-500 animate-fade-in w-fit bg-black font-semibold text-yellow-500 px-4 py-2 rounded hover:text-zinc-300"
             >
               Buy Now
@@ -63,10 +63,10 @@ export default function Home() {
           <Link
             rel="noopener noreferrer"
             target="_blank"
-            href="https://odin.fun/"
+            href="https://movepump.com/"
             className="underline duration-500 hover:text-zinc-300"
           >
-            odin.fun
+            movepump.com
           </Link>{" "}
           and join the adventure!
         </h2>
