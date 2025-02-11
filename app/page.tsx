@@ -48,7 +48,7 @@ export default function Home() {
             <Link
               rel="noopener noreferrer"
               target="_blank"
-              href="https://movepump.com/"
+              href="https://movepump.com/token/0xebf433a14b1071921c5b66de495eead8af7cafe4ad76151cd781eb7e4605c201::fart::FART"
               className="text-xl duration-500 animate-fade-in w-fit bg-black font-semibold text-yellow-500 px-4 py-2 rounded hover:text-zinc-300"
             >
               Buy Now
